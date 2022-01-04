@@ -10,6 +10,32 @@
     :root { --particular-ad: url(img/mvbg.png); }
 }
 
+
+
+/* side_icon */
+
+.side-bar{
+    position: sticky;
+    top: 40%;
+    width: 50px;
+
+    
+}
+.side-bar i{
+    display: block;
+    font-size: 40px;
+    color: #34339A;
+    padding: 10px;
+    transition: transform .1s;
+    
+}
+.side-bar i:hover{
+    color: #ff6600;
+    /* color: #FF475E; */
+    transform: scale(1.01);
+    
+}
+
 /* both */
 body{
     align-items: center;
@@ -40,7 +66,7 @@ body{
  color: #34339A;
 }
 .title-color-02{
-    color: #cc0404;
+    color: #ff6600;
 }
 
 .section, .dream-section, .exprience-card{
@@ -57,14 +83,13 @@ body{
 /* first section */
 
 
-.section{
+.profile{
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 .section-title{
  width: 50%;
- padding-top: 5%;
  padding-right: 15%;
 }
 
@@ -73,7 +98,6 @@ body{
    }
 
 .profile-pic img{
-    padding-top: 5%;
     width: 50%;
     padding-left: 25%;
     transition: transform .1s;
