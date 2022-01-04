@@ -17,6 +17,7 @@ body{
     background-color: #34339A;
     padding: 2px 10px;
     border-radius: 20px;
+    transition: transform .1s;
     
 }
 .link-button a:hover{
@@ -25,9 +26,16 @@ body{
     border: 2px solid #34339A;
 
 }
+.link-button:hover{
+    transform: scale(1.1);
+
+}
 
 .title-color{
  color: #34339A;
+}
+.title-color-02{
+    color: #cc0404;
 }
 
 .section, .dream-section, .exprience-card{
@@ -63,6 +71,10 @@ body{
     padding-top: 5%;
     width: 50%;
     padding-left: 25%;
+    transition: transform .1s;
+}
+.profile-pic img:hover{
+    transform: scale(1.1);
 }
 
 
@@ -85,6 +97,7 @@ body{
     padding-right: 15%;
 
 }
+
 .dream-section-full{
     background-repeat: no-repeat;
     background-size: 100%;
@@ -108,19 +121,38 @@ body{
  border-left: rgb(255, 255, 255, 0.5);
  background:rgb(255, 255, 255, 0.1);
  backdrop-filter: blur(5px);
+ transition: transform .1s;
  justify-content: center;
  align-items: center;
 
 }
+
+.card:hover{
+
+    transform: scale(1.1);
+
+}
+
+
+
+
+
 .card h2, h4, p{
     padding: 10px 10px;
     text-align: center;
 }
 
 .exprience-card{
+    background-image: url(/img/exp1-bg.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+
+
+
+
+
 
 footer{
     text-align: center;
