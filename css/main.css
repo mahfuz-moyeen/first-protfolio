@@ -4,6 +4,11 @@
     font-family: 'Poppins', sans-serif;
 
 }
+:root { --particular-ad: url(img/exp1-bg.png); }
+
+@media (max-width: 800px) {
+    :root { --particular-ad: url(img/mvbg.png); }
+}
 
 /* both */
 body{
@@ -143,7 +148,6 @@ body{
 }
 
 .exprience-card{
-    background-image: url(/img/exp1-bg.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
