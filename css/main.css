@@ -4,9 +4,14 @@
     font-family: 'Poppins', sans-serif;
 
 }
-/* both */
 
-body a{
+/* both */
+body{
+    align-items: center;
+    justify-content: center;
+}
+
+.link-button a{
     color: white;
     text-decoration: none;
     background-color: #34339A;
@@ -14,7 +19,7 @@ body a{
     border-radius: 20px;
     
 }
-body a:hover{
+.link-button a:hover{
     color: #34339A;
     background-color: white;
     border: 2px solid #34339A;
@@ -25,12 +30,14 @@ body a:hover{
  color: #34339A;
 }
 
-.section, .dream-section{
+.section, .dream-section, .exprience-card{
     display: flex;
     padding: 30px;
 }
 .section-title p, .dream-text p{
     text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
    }
 
 
@@ -77,6 +84,42 @@ body a:hover{
     width: 50%;
     padding-right: 15%;
 
+}
+.dream-section-full{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+/* exprience */
+.head-text h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.card{
+ position: relative;
+ width: 300px;
+ height: 400px;
+ margin: 30px;
+ box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.5);
+ border-radius: 15px;
+ border-top: rgb(255, 255, 255, 0.5);
+ border-left: rgb(255, 255, 255, 0.5);
+ background:rgb(255, 255, 255, 0.1);
+ backdrop-filter: blur(5px);
+ justify-content: center;
+ align-items: center;
+
+}
+.card h2, h4, p{
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.exprience-card{
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 footer{
