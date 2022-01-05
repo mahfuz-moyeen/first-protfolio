@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 
 }
@@ -101,7 +102,7 @@ body{
    }
 
 .profile-pic img{
-    width: 50%;
+    width: 80%;
     padding-left: 25%;
     transition: transform .1s;
 }
@@ -125,7 +126,7 @@ body{
 
 .dream-img img{
     padding-top: 5%;
-    width: 50%;
+    width: 80%;
     padding-right: 15%;
 
 }
@@ -140,7 +141,7 @@ body{
 .head-text h1{
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 .card{
  position: relative;
@@ -229,12 +230,82 @@ body{
 }
 
 
+/* contact me */
+
+.contact-title h1{
+    text-align: center;
+}
+.contact-title p{
+    margin-top: 40px;
+    margin-bottom: -60px;
+}
 
 
 
+
+#name, #email, #subject, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #34339A;
+    border-radius: 20px;
+  }
+  
+  label {
+    color: white;
+    padding: 10px 10px 10px 0;
+  }
+  
+  #submit {
+    color: white;
+    background-color: #34339A;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    padding: 2px 40px;
+    margin-right: 20%;
+    transition: transform .1s;
+    float: right;
+   
+  }
+  
+ #submit:hover {
+    color: #34339A;
+    background-color: white;
+    transform: scale(1.01);
+  }
+  .form-container {
+    border-radius: 30px 30px 0 0;
+    background-color: #34339A;
+    padding: 20px;
+  }
+  
+  .col-01 {
+    float: left;
+    text-align: right;
+    width: 20%;
+    margin-top: 6px;
+
+  }
+  .col-02 {
+    float: left;
+    width: 80%;
+    margin-top: 6px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+
+
+
+/* footer */
 
 footer{
+    color: white;
     text-align: center;
-    background-color: #7f7cd681;
-    padding: 20px;
+    background-color: #413f3f;
+    padding: 10px;
+    font-size: 10px;
 }

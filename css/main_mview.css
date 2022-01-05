@@ -7,7 +7,7 @@
         display: block;
     }
     .profile-pic img{
-        width: 70%;
+        width: 100%;
         margin: auto;
 
     }
@@ -38,7 +38,7 @@
             text-align: justify;
            }
            .dream-img img{
-            width: 80%;
+            width: 100%;
             margin: auto;
             padding-left: 10%;
         }
@@ -55,4 +55,16 @@
             display: block;
             width: 100%;
         }
+
+        /* contact form */
+        .col-01, .col-02 {
+            text-align: left;
+            width: 100%;
+            margin-top: 0;
+          }
+          #submit{
+              width: 100%;
+              padding: 10px;
+              margin-right: 0;
+          }
 }
