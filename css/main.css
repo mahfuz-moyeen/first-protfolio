@@ -18,6 +18,7 @@
     position: sticky;
     top: 40%;
     width: 50px;
+    z-index: 5;
 
     
 }
@@ -27,12 +28,14 @@
     color: #34339A;
     padding: 10px;
     transition: transform .1s;
+
     
 }
 .side-bar i:hover{
     color: #ff6600;
     /* color: #FF475E; */
     transform: scale(1.01);
+
     
 }
 
