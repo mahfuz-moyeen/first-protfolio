@@ -5,11 +5,6 @@
     font-family: 'Poppins', sans-serif;
 
 }
-:root { --particular-ad: url(img/exp1-bg.png); }
-
-@media (max-width: 800px) {
-    :root { --particular-ad: url(img/mvbg.png); }
-}
 
 
 
@@ -88,6 +83,7 @@ body{
 
 
 .profile{
+    background-image: url(../img/section_bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -132,6 +128,7 @@ body{
 }
 
 .dream-section-full{
+    background-image: url(../img/dream-bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
     
@@ -176,6 +173,7 @@ body{
 }
 
 .exprience-card{
+    background-image: url(../img/exp1-bg.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
