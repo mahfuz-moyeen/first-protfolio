@@ -47,5 +47,12 @@
             background-repeat: no-repeat;
             background-size: contain;
         }
-    
+
+        .section-skill{
+            display: block;
+        }
+        .progress-container{
+            display: block;
+            width: 100%;
+        }
 }

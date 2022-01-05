@@ -176,6 +176,54 @@ body{
     background-size: contain;
 }
 
+/* my skills */
+
+.section-skill{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.progress-container{
+    display: block;
+    width: 50%;
+}
+.progress-bar{
+    margin: 10px 20px;
+    border: 1px solid #34339A;
+    border-radius: 15px;
+}
+
+.skill {
+    background-color: #34339A;
+    color: white;
+    padding: 1%;
+    font-size: 12px;
+    border-radius: 15px;
+}
+
+.web-design{
+    width: 75%;
+}
+.web-dev{
+    width: 75%;
+}
+.ui-ux{
+    width: 60%;
+}
+.Wordpress{
+    width: 82%;
+}
+.photoshop{
+    width: 88%;
+}
+.photoshop{
+    width: 88%;
+}
+
+.html-css{
+    width: 88%;
+}
 
 
 
